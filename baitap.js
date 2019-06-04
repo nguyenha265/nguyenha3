@@ -1,27 +1,27 @@
-function b() {
-    let r = parseInt(document.getElementById("a").value);
-    let r1 = parseInt(document.getElementById("a1").value);
-    let r2 = r + r1;
-    document.getElementById("i").innerHTML = "result Division : " + r2;
+function dauCong() {
+    let soThuNhat = parseInt(document.getElementById("num1").value);
+    let soThuHai = parseInt(document.getElementById("num2").value);
+    let ketQua = soThuNhat + soThuHai;
+    document.getElementById("i").innerHTML = "result Division : " + ketQua;
 }
 
-function b1() {
-    let r = parseInt(document.getElementById("a").value);
-    let r1 = parseInt(document.getElementById("a1").value);
-    let r2 = r - r1;
-    document.getElementById("i").innerHTML = "result Division : " + r2;
+function dauTru() {
+    let soThuNhat = parseInt(document.getElementById("num1").value);
+    let soThuHai = parseInt(document.getElementById("num2").value);
+    let ketQua = soThuNhat - soThuHai;
+    document.getElementById("i").innerHTML = "result Division : " + ketQua;
 }
 
-function b2() {
-    let r = parseInt(document.getElementById("a").value);
-    let r1 = parseInt(document.getElementById("a1").value);
-    let r2 = r * r1;
-    document.getElementById("i").innerHTML = "result Division : " + r2;
+function dauNhan() {
+    let soThuNhat = parseInt(document.getElementById("num1").value);
+    let soThuHai = parseInt(document.getElementById("num2").value);
+    let ketQua = soThuNhat * soThuHai;
+    document.getElementById("i").innerHTML = "result Division : " + ketQua;
 }
 
-function b3() {
-    let r = parseInt(document.getElementById("a").value);
-    let r1 = parseInt(document.getElementById("a1").value);
-    let r2 = r / r1;
-    document.getElementById("i").innerHTML = "result Division : " + r2;
+function dauChia() {
+    let soThuNhat = parseInt(document.getElementById("num1").value);
+    let soThuHai = parseInt(document.getElementById("num2").value);
+    let ketQua = soThuNhat / soThuHai;
+    document.getElementById("i").innerHTML = "result Division : " + ketQua;
 }
